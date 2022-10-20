@@ -1,0 +1,32 @@
+.collapsible {
+  background-color: #1072A3;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.collapsible:hover {
+  background-color: #113E55;
+}
+
+.content {
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-bottom: .5cm;
+}
+
+.block-course {
+  margin-bottom: .5cm;
+}
+
+.icon-down{
+  color: #fff;
+  float: right;
+}

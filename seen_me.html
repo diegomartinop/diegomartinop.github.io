@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+		<script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/10f6dbc809.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="css/navigation-menu.css" media="all"/>
+		<title>Homepage</title>
+		<!-- <link rel="icon" type="image/png" href="images/favicon.png" /> -->
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Navigation menu -->
+			<div id="nav-placeholder"></div>
+
+			<div class="seen-me">
+				<h5>You might have seen me at</h5>
+				<ul>
+					<li>
+		                EURO 2022: 32nd European Conference on Operational Research - Espoo, Finland<br>
+		            </li>
+		            <li>
+		                IRP Workshop: One-day workshop on the Inventory Routing Problem - Paris, France<br>
+		            </li>
+					<li>
+		                ROADEF 2022: <i>23ème Conference ROADEF de la Société Française de Recherche Opérationnelle et Aide à la Décision</i> - Lyon, France<br>
+		            </li>
+					<li>
+		                Fall school 2021: <i>Approches quantiques pour une nouvelle Recherche Opérationnelle</i> - Montpellier, France <br>
+		            </li>
+		            <li>
+		                EURO 2021: 31st European Conference on Operational Research - Athens, Greece (Virtual conference) <br>
+		            </li>
+		            <li>
+		                ROADEF 2021: <i>22ème Conference ROADEF de la Société Française de Recherche Opérationnelle et Aide à la Décision</i> - Mulhouse, France (Virtual conference) <br>
+		            </li>
+		            <li>
+		                ICVNS 2019: 7th International Conference on Variable Neighborhood Search - Rabat, Morocco<br>
+		            </li>
+		            <li>
+		                SBPO 2018: <i>L Simpósio Brasileiro de Pesquisa Operacional</i> - Rio de Janeiro, Brazil <br>
+		            </li>
+	            </ul>
+            </div>
+
+			<!-- Footer -->
+			<div id="footer"></div>
+
+  		</div>
+	</body>
+</html>
+
+<script>
+	$(function(){
+		$("#nav-placeholder").load("navigation_menu.html");
+	});
+	$(function(){
+		$("#footer").load("footer.html");
+	});
+</script>
+	

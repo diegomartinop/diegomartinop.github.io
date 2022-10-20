@@ -1,0 +1,16 @@
+.info-card {
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+}
+
+.info-contact {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info-contact a {
+    color: inherit !important;
+}

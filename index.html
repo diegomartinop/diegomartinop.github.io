@@ -1,7 +1,55 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+		<script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/10f6dbc809.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="css/navigation-menu.css" media="all"/>
+		<title>Homepage</title>
+		<!-- <link rel="icon" type="image/png" href="images/favicon.png" /> -->
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Navigation menu -->
+			<div id="nav-placeholder"></div>
+
+			<div class="infos">	
+				<div id="one">
+					<img src="images/photo_profile.JPG" alt="Page perso">
+				</div>
+				<div id="two">
+					<div class="info-card">
+						<!-- Informations de contact -->
+						<div class="info-contact">
+							<h3>Diego PERDIGÃO MARTINO</h3>
+							<hr>
+							<h5>Welcome to my homepage!</h5>
+							I'm a PhD student at the <i><a target="_blank" href="https://limos.fr/">Laboratoire d'Informatique, de Modélisation et d'Optimisation des Systèmes</i> (LIMOS)</a>
+							attached to the <i><a target="_blank" href="https://www.uca.fr/">Université Clermont Auvergne</i> (UCA)</a>. I work on Operations Research techniques to solve 
+							combinatorial optimization problems regarding both vehicule routing and inventory management. I'm also charged of practical courses for <i>Licence</i> and 
+							<i>Master</i> students at the <a target="_blank" href="https://www.uca.fr/">UCA</a>.<br>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div id="footer"></div>
+
+  		</div>
+	</body>
 </html>
+
+<script>
+	$(function(){
+		$("#nav-placeholder").load("navigation_menu.html");
+	});
+	$(function(){
+		$("#footer").load("footer.html");
+	});
+</script>
+	

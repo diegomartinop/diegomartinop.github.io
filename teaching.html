@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/10f6dbc809.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/navigation-menu.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/teaching.css" media="all">
+  <title>Teaching</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Navigation menu -->
+    <div id="nav-placeholder"></div>
+
+    <center><h1><TT><b>Teaching</b></TT></h1></center>
+
+    <h4>2022/2023</h4>
+    <hr>
+    <h4 style="margin-bottom: 1cm;">TBA</h4>
+
+    <h4>2021/2022</h4>
+    <hr>
+
+    <div class="block-course">
+      <button type="button" class="collapsible">Operations Research <i class="fas fa-angle-down icon-down"></i></button>
+      <div class="content">
+        <ul>
+              <li><b>Degree:</b> <i>Master 1</i> in Applied Mathematics and Statistics at the Clermont Auvergne University</li>
+              <li><b>Hourly volume:</b> 9 hours</li>
+              <li><b>Type:</b> Practical work</li>
+              <li><b>Description:</b> In this course, the students learn how to model, implement, analyse and provide sensitivity analysis of classical linear problems as well as a Cutting plane algorithm with Gomory cuts to solve them. For the linear integer problems, a Branch-and-cut for the Travelling Salesman Problem is also studied. Models are solved by using the <TT>CPLEX IDE</TT> and <TT>CPLEX Python API</TT>.</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="block-course">
+      <button type="button" class="collapsible">Computing project <i class="fas fa-angle-down icon-down"></i></button>
+      <div class="content">
+          <ul>
+              <li><b>Degree:</b> <i>Licence 1 Portail Info-Maths</i> at the Clermont Auvergne University</li>
+              <li><b>Hourly volume:</b> 24 hours</li>
+              <li><b>Type:</b> Practical work</li>
+              <li><b>Description:</b> In this course, the students should implement a card game using <TT>Python</TT> language, <TT>GitLab</TT> to control the files
+                version and <TT>LaTeX</TT> to write a final report.</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="block-course">
+      <button type="button" class="collapsible">Object-oriented programming <i class="fas fa-angle-down icon-down"></i></button>
+      <div class="content">
+        <ul>
+              <li><b>Degree:</b> <i>Licence 2 Informatique</i> at the Clermont Auvergne University</li>
+              <li><b>Hourly volume:</b> 27 hours</li>
+              <li><b>Type:</b> Practical work</li>
+              <li><b>Description:</b> In this course, the students learn how to code using the object programming logic in <TT>Java</TT> language.</li>
+          </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    $(function() {
+      $("#nav-placeholder").load("navigation_menu.html");
+    });
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+  </script>
+</body>
+
+</html>

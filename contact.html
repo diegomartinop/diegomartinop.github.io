@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/10f6dbc809.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/navigation-menu.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/publications.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/contact.css" media="all">
+  <title>Contact</title>
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png" /> -->
+</head>
+
+<body>
+  <div class="container">
+    <!-- Navigation menu -->
+    <div id="nav-placeholder"></div>
+
+    <center><h1><TT><b>Contact</b></TT></h1></center>
+
+    <div class="info-card">
+        <!-- Informations de contact -->
+        <div class="info-contact">
+            Diego PERDIGÃO MARTINO<br>
+            Operations Research PhD student<br>
+            <i><a target="_blank" href="https://spi.ed.uca.fr/">Ecole Doctorale des Sciences pour l'Ingénieur</i></a><br>
+            <i><a target="_blank" href="https://limos.fr/">Laboratoire d'Informatique, de Modélisation et d'Optimisation des Systèmes</i></a><br>
+            <i><a target="_blank" href="https://www.uca.fr/">Université Clermont Auvergne</i></a><br> 
+            diego.perdigao_martino {at} uca {dot} fr<br>
+            +33 4 73 40 53 68
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+  </div>
+
+  <script>
+    $(function() {
+      $("#nav-placeholder").load("navigation_menu.html");
+    });
+    $(function(){
+      $("#footer").load("footer.html");
+  });
+  </script>
+</body>
+
+</html>

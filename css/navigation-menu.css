@@ -1,0 +1,31 @@
+.navigation-menu {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.navigation-menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation-menu a:hover {
+  background-color: #757474;
+  color: rgb(248, 247, 247);
+}
+
+/* Add a color to the active/current link */
+/* .navigation-menu a.active {
+  background-color: rgb(95, 135, 196);
+  color: white;
+} */
+
+.navigation-menu > .active > i {
+  color: white !important;
+}
