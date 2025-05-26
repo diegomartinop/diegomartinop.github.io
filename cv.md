@@ -12,4 +12,4 @@ permalink: /cv/
   <i class="fas fa-file-pdf icon"></i> Télécharger mon CV
 </a>
 
-<iframe src="{{ '/assets/files/CV_Perdigao.pdf' | relative_url }}" width="100%" height="800px"></iframe>
+<iframe src="{{ '/assets/files/CV_Perdigao.pdf#toolbar=0' | relative_url }}" width="100%" height="800px"></iframe>
