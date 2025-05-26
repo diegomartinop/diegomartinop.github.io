@@ -1,4 +1,22 @@
+title: Diego Perdigão Martino
+description: "Docteur en Informatique et ATER à l'ISIMA"
 theme: jekyll-theme-dinky
 
-title: [Diego Perdigão Martino]
-description: [ATER à l'ISIMA]
+nav:
+  - title: Accueil
+    url: /
+  - title: À propos
+    url: /about/
+  - title: Publications
+    url: /publications/
+  - title: Teaching
+    url: /teaching/
+  - title: Contact
+    url: /contact/
+  - title: CV
+    url: /cv/
+  - title: Research
+    url: /research/
+
+links:
+  linkedin: "https://www.linkedin.com/in/diegomartinop/"
