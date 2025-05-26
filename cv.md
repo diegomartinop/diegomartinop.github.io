@@ -8,8 +8,8 @@ permalink: /cv/
 
 *Only the french version is available*
 
-<a href="{{ '/assets/files/CV_Perdigao.pdf' | relative_url }}" target="_blank">
+<!--<a href="{{ '/assets/files/CV_Perdigao.pdf' | relative_url }}" target="_blank">
   <i class="fas fa-file-pdf icon"></i> Télécharger mon CV
-</a>
+</a>-->
 
 <iframe src="{{ '/assets/files/CV_Perdigao.pdf#toolbar=0' | relative_url }}" width="100%" height="800px"></iframe>
