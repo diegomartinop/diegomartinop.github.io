@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+:root {
+  --main-red: #C30000;
+}
+
 .btn-home i {
   font-size: 1.4em;
   margin-bottom: 20px;
@@ -20,4 +24,36 @@ a:hover {
 .btn {
   font-family: 'Arial', sans-serif;
   font-size: 12px; 
+}
+
+.teaching-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.teaching-card {
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: transparent; /* Fond transparent */
+  box-shadow: none;         /* Pas d'ombre */
+}
+
+.teaching-card h3 {
+  margin-top: 0;
+  color: var(--main-red);
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3em;
+}
+
+.teaching-card ul {
+  padding-left: 1.2em;
+  margin: 0.5em 0 0;
+}
+
+.teaching-card li {
+  margin-bottom: 0;
+  font-size: 14px;
 }
