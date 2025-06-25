@@ -8,7 +8,7 @@ permalink: /publications/
 {% assign sorted_pubs = pubs_by_year | sort: "name" | reverse %}
 
 {% for year_group in sorted_pubs %}
-### {{ year_group.name }}
+<h3 style="color: var(--main-red);">{{ year_group.name }}</h3>
 
 {% for pub in year_group.items %}
 {{ pub.authors | join: ', ' }} 
