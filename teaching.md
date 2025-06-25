@@ -6,41 +6,26 @@ permalink: /teaching/
 
 # Teachings
 
-<div class="teaching-cards">
-  <div class="teaching-card">
-    <h3>2024-2025</h3>
-    <ul>
-      <li>Mathematical and computational writing (Git, LaTeX)</li>
-      <li>C programming</li>
-      <li>Databases (SQL, relational algebra) </li>
-      <li>Operational research</li>
-      <li>Numerical algorithms</li>
-      <li>Graphs</li>
-    </ul>
-  </div>
-  <div class="teaching-card">
-    <h3>2023-2024</h3>
-    <ul>
-      <li>C programming</li>
-      <li>Numerical algorithms</li>
-      <li>Operational research</li>
-      <li>Systems modeling and optimization</li>
-    </ul>
-  </div>
-  <div class="teaching-card">
-    <h3>2022-2023</h3>
-    <ul class="custom-list">
-      <li>C programming</li>
-      <li>Numerical algorithms</li>
-      <li>Operational research</li>
-    </ul>
-  </div>
-  <div class="teaching-card">
-    <h3>2021-2022</h3>
-    <ul>
-      <li>Computing project (Python, Git, LaTeX)</li>
-      <li>Object-oriented programming (Java)</li>
-      <li>Operational research</li>
-    </ul>
-  </div>
-</div>
+## 2024-2025
+- Mathematical and computational writing (Git, LaTeX)
+- C programming
+- Databases (SQL, relational algebra)
+- Operational research
+- Numerical algorithms
+- Graphs
+
+## 2023-2024
+- C programming
+- Numerical algorithms
+- Operational research
+- Systems modeling and optimization
+
+## 2022-2023
+- C programming
+- Numerical algorithms
+- Operational research
+
+## 2021-2022
+- Computing project (Python, Git, LaTeX)
+- Object-oriented programming (Java)
+- Operational research
