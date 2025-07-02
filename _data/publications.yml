@@ -3,8 +3,6 @@
   journal: "European Journal of Operational Research"
   year: 2025
   link: "https://doi.org/10.1016/j.ejor.2025.05.044"
-  #pdf: "/assets/files/publication1.pdf"
-  #comment: "Accepted on May 22. Will be published soon"
 
 - title: "Iterative Heuristic over Periods for the Inventory Routing Problem"
   authors: "Farias, K., Lacomme P., Perdigão Martino, D. (Ordered alphabetically by family name)"
@@ -13,7 +11,6 @@
   location: "Lorient, France"
   year: 2024
   link: "https://doi.org/10.1007/978-3-031-62912-9_12"
-  #pdf: "/assets/files/paper2.pdf"
 
 - title: "Basic VNS for the Uncapacitated Single Allocation p-Hub Maximal Covering Problem"
   authors: "Butinholi, M.d.A., Martins, A.X., de Oliveira, P.B., Martino, D.P."

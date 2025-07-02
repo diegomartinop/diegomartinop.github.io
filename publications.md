@@ -20,3 +20,8 @@ permalink: /publications/
 
 {% endfor %}
 {% endfor %}
+
+<div style="width: 100%; overflow: hidden;text-align: center; margin: 0 auto;">
+     <a href="https://www.scimagojr.com/journalsearch.php?q=22489&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=22489" alt="SCImago Journal &amp; Country Rank"  /></a>
+     <a href="https://www.scimagojr.com/journalsearch.php?q=25674&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=25674" alt="SCImago Journal &amp; Country Rank"  /></a>
+</div>
