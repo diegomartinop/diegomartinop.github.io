@@ -72,6 +72,8 @@ a:hover {
   text-decoration: none;
   color: #222;
   transition: box-shadow 0.2s ease;
+  width: 100%;
+  max-width: 200px;
 }
 
 .social-card:hover {
@@ -90,4 +92,42 @@ a:hover {
 .social-handle {
   font-size: 0.9rem;
   color: #666;
+}
+
+.tabs {
+  margin-bottom: 10px;
+}
+
+.tab-button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background: #eee;
+  margin-right: 4px;
+  color: #C30000;
+  border-radius: 8px;
+}
+
+.tab-button.active {
+  background: #3e444c;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+}
+
+.address {
+  display: inline-block;
+  margin-left: 1.5em;
+}
+
+.columns {
+  display: flex;
+  gap: 30px;
+}
+
+.columns > div {
+  flex: 1;
 }
