@@ -16,5 +16,5 @@ title: Accueil
     </p>
   </div>
 
-  <img src="assets/images/profile.jpeg" alt="Portrait" style="width: 180px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="assets/images/profile.jpg" alt="Portrait" style="width: 180px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); pointer-events: none; ">
 </div>
