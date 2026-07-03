@@ -17,11 +17,20 @@ permalink: /teaching/
 
 
 <div id="25-26" class="tab-content" style="display:block;">
-oi
+    <ul>
+        <li>C programming</li>
+        <li>Algorithmic in Python</li>
+        <li>Numerical algorithms</li>
+        <li>Graphs</li>
+        <li>Game theory</li>
+        <li>Operational research</li>
+        <li>Systems modeling and optimization</li>
+        <li>Mathematical and computational writing (Git, LaTeX)</li>
+    </ul>
 </div>
 
 <div id="24-25" class="tab-content">
-<ul>
+    <ul>
         <li>Mathematical and computational writing (Git, LaTeX)</li>
         <li>C programming</li>
         <li>Databases (SQL, relational algebra)</li>
