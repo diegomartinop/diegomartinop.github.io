@@ -4,75 +4,72 @@ title: Teaching
 permalink: /teaching/
 ---
 
-# Teachings
+# Teaching
 
 <div class="tabs">
-    <button class="tab-button" onclick="openTab(event, '26-27')">2026-2027</button>
-    <button class="tab-button active" onclick="openTab(event, '25-26')">2025-2026</button>
-    <button class="tab-button" onclick="openTab(event, '24-25')">2024-2025</button>
-    <button class="tab-button" onclick="openTab(event, '23-24')">2023-2024</button>
-    <button class="tab-button" onclick="openTab(event, '22-23')">2022-2023</button>
-    <button class="tab-button" onclick="openTab(event, '21-22')">2021-2022</button>
+
+{% for year in site.data.teaching.years %}
+<button class="tab-button {% if forloop.first %}active{% endif %}"
+        onclick="openTab(event, '{{ year[0] }}')">
+    {{ year[1].label }}
+</button>
+{% endfor %}
+
 </div>
 
 
-<div id="25-26" class="tab-content" style="display:block;">
+{% for year in site.data.teaching.years %}
+
+<div id="{{ year[0] }}" 
+     class="tab-content"
+     {% if forloop.first %}
+     style="display:block;"
+     {% endif %}>
+
+    {% if year[1].courses.size > 0 %}
+
+    <div class="cards">
+
+        {% for course in year[1].courses %}
+
+        <div class="card">
+            <div class="title">{{ course.title }}</div>
+            <div class="desc">{{ course.desc }}</div>
+            <div class="meta">{{ course.hours }} hours</div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    {% endif %}
+
+
+    {% if year[1].topics.size > 0 %}
+
     <ul>
-        <li>C programming</li>
-        <li>Algorithmic in Python</li>
-        <li>Numerical algorithms</li>
-        <li>Graphs</li>
-        <li>Game theory</li>
-        <li>Operational research</li>
-        <li>Systems modeling and optimization</li>
-        <li>Mathematical and computational writing (Git, LaTeX)</li>
+        {% for topic in year[1].topics %}
+        <li>{{ topic }}</li>
+        {% endfor %}
     </ul>
+
+    {% endif %}
+
 </div>
 
-<div id="24-25" class="tab-content">
-    <ul>
-        <li>Mathematical and computational writing (Git, LaTeX)</li>
-        <li>C programming</li>
-        <li>Databases (SQL, relational algebra)</li>
-        <li>Operational research</li>
-        <li>Numerical algorithms</li>
-        <li>Graphs</li>
-    </ul>
-</div>
-
-<div id="23-24" class="tab-content">
-    <ul>
-        <li>C programming</li>
-        <li>Numerical algorithms</li>
-        <li>Operational research</li>
-        <li>Systems modeling and optimization</li>
-    </ul>
-</div>
-
-<div id="22-23" class="tab-content">
-    <ul>
-        <li>C programming</li>
-        <li>Numerical algorithms</li>
-        <li>Operational research</li>
-    </ul>
-</div>
-
-<div id="21-22" class="tab-content">
-    <ul>
-        <li>Computing project (Python, Git, LaTeX)</li>
-        <li>Object-oriented programming (Java)</li>
-        <li>Operational research</li>
-    </ul>
-</div>
+{% endfor %}
 
 
 <script>
 function openTab(evt, tabName) {
+
   const contents = document.getElementsByClassName("tab-content");
-  for (let c of contents) c.style.display = "none";
+  for (let c of contents)
+      c.style.display = "none";
 
   const buttons = document.getElementsByClassName("tab-button");
-  for (let b of buttons) b.classList.remove("active");
+  for (let b of buttons)
+      b.classList.remove("active");
 
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.classList.add("active");

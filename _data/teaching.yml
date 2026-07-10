@@ -1,0 +1,140 @@
+years:
+  25-26:
+    label: "2025-2026"
+    courses:
+      - title: C Programming
+        desc_FR: Variables et instructions conditionnelles, boucles et fonctions, tableaux à taille constante, tableaux 2D, chaînes de caractères, structures, pointeurs, allocation de mémoire dynamique
+        desc: Variables and conditional statements, loops and functions, fixed-size arrays, 2D arrays, strings, structures, pointers, dynamic memory allocation
+        hours: 30
+
+      - title: Algorithmic in Python
+        desc_FR: Variables, affectation, entrées et sorties standard, chaînes de caractères, booléens et instructions conditionnelles, fonctions et tuples, boucles while et for, listes, dictionnaires, récursivité, algorithmes de tri, lecture et écriture dans un fichier
+        desc: Variables, assignment, standard input and output, strings, booleans and conditional statements, functions and tuples, while and for loops, lists, dictionaries, recursion, sorting algorithms, reading from and writing to a file
+        hours: 24
+
+      - title: Graphs theory
+        desc_FR: Parcours en largeur et en profondeur, calcul des distances dans les graphes pondérés, arbre couvrant de poids minimal, problèmes d’ordonnancement, flots maximaux, tri topologique, composants fortement connexes, graphes Eulérien et Hamiltonien
+        desc: Breadth-first and depth-first traversal, distance computation in weighted graphs, minimum spanning trees, scheduling problems, maximum flows, topological sorting, strongly connected components, Eulerian and Hamiltonian graphs
+        hours: 18
+
+      - title: Graphs structure
+        desc_FR: Algorithmes sur les graphes Eulérien, parcours en largeur et en profondeur, tri topologique, composantes fortement connexes
+        desc: Algorithms on Eulerian graphs, breadth-first and depth-first traversal, topological sorting, strongly connected components
+        hours: null
+
+      - title: Numerical algorithms
+        desc_FR: Systèmes linéaires, méthode de Gauss, méthode de Cholesky, méthode itérative de Gauss-Seidel, méthode itérative de Jacobi, interpolation (Lagrange, Neville, Newton), approximation (équation de droite, moindres carrées), valeurs et vecteurs propres, modélisation
+        desc: Linear systems, Gaussian elimination method, Cholesky method, Gauss-Seidel iterative method, Jacobi iterative method, interpolation (Lagrange, Neville, Newton), approximation (line equation, least squares), eigenvalues and eigenvectors, modeling
+        hours: null
+
+      - title: Game theory
+        desc_FR: Jeux à somme nulle, jeux sans somme nulle
+        desc: Zero-sum games, non-zero-sum games
+        hours: null
+
+      - title: Operational research
+        desc_FR: Modélisation des PL et PLNEs avec OPL IDE et avec l’API Python de CPLEX, dualité, analyse de sensibilité, algorithme de plans sécants (Cutting plane de Gomory), Branch-and-Cut
+        desc: Modeling of Linear Programs (LP) and Mixed-Integer Linear Programs (MILP) with OPL IDE and with the CPLEX Python API, duality, sensitivity analysis, Gomory cutting-plane algorithm, Branch-and-Cut
+        hours: null
+
+      - title: Systems modeling and optimization
+        desc_FR: Rélaxation linéaire, heuristique gloutonne, programmation dynamique, réduction, pré-traitement, résolution des PLNE avec CPLEX, relaxation Lagrangienne
+        desc: Linear relaxation, greedy heuristics, dynamic programming, reduction, preprocessing, solving MILPs with CPLEX, Lagrangian relaxation
+        hours: null
+
+      - title: Mathematical and computational writing
+        desc_FR: Git (initialisation d’un dépôt, configurations de base, versions, synchronisation avec dépôt distant, .gitignore, gestion des conflits, fusion de versions, insertion d’image, insertion de code), LATEX (écriture et compilation, mécanisme de référencement interne, packages, commandes de base, listes, mode math, mécanisme de compilation avec fichiers auxiliaires, tableaux, définition de commandes simples et complexes, contrôle de la forme) et remédiation en mathématique (récurrences, quantification, contraposé, nie)
+        desc: Git (repository initialization, basic configurations, versioning, synchronization with remote repositories, .gitignore, conflict management, version merging, image insertion, code insertion), LaTeX (writing and compilation, internal referencing mechanism, packages, basic commands, lists, math mode, compilation mechanism with auxiliary files, tables, definition of simple and complex commands, formatting control), and mathematical remediation (recurrences, quantifiers, contrapositive, negation)
+        hours: null
+
+  24-25:
+    label: "2024-2025"
+    courses:
+      - title: Mathematical and computational writing (Git, LaTeX)
+        desc_FR: Git (initialisation d’un dépôt, configurations de base, versions, synchronisation avec dépôt distant, .gitignore, gestion des conflits, fusion de versions, insertion d’image, insertion de code), LATEX (écriture et compilation, mécanisme de référencement interne, packages, commandes de base, listes, mode math, mécanisme de compilation avec fichiers auxiliaires, tableaux, définition de commandes simples et complexes, contrôle de la forme) et remédiation en mathématique (récurrences, quantification, contraposé, nie)
+        desc: Git (repository initialization, basic configurations, versioning, synchronization with remote repositories, .gitignore, conflict management, version merging, image insertion, code insertion), LaTeX (writing and compilation, internal referencing mechanism, packages, basic commands, lists, math mode, compilation mechanism with auxiliary files, tables, definition of simple and complex commands, formatting control), and mathematical remediation (recurrences, quantifiers, contrapositive, negation)
+        hours: null
+
+      - title: C Programming
+        desc_FR: Variables et instructions conditionnelles, boucles et fonctions, tableaux à taille constante, tableaux 2D, chaînes de caractères, structures, pointeurs, allocation de mémoire dynamique
+        desc: Variables and conditional statements, loops and functions, fixed-size arrays, 2D arrays, strings, structures, pointers, dynamic memory allocation
+        hours: null
+
+      - title: Databases
+        desc_FR: Bases de données SQL
+        desc: SQL database
+        hours: null
+
+      - title: Operational research
+        desc_FR: Modélisation des PL et PLNEs avec OPL IDE et avec l’API Python de CPLEX, dualité, analyse de sensibilité, algorithme de plans sécants (Cutting plane de Gomory), Branch-and-Cut
+        desc: Modeling of Linear Programs (LP) and Mixed-Integer Linear Programs (MILP) with OPL IDE and with the CPLEX Python API, duality, sensitivity analysis, Gomory cutting-plane algorithm, Branch-and-Cut
+        hours: null
+
+      - title: Numerical algorithms
+        desc_FR: Systèmes linéaires, méthode de Gauss, méthode de Cholesky, méthode itérative de Gauss-Seidel, méthode itérative de Jacobi, interpolation (Lagrange, Neville, Newton), approximation (équation de droite, moindres carrées), valeurs et vecteurs propres, modélisation
+        desc: Linear systems, Gaussian elimination method, Cholesky method, Gauss-Seidel iterative method, Jacobi iterative method, interpolation (Lagrange, Neville, Newton), approximation (line equation, least squares), eigenvalues and eigenvectors, modeling
+        hours: null
+
+      - title: Graphs structure
+        desc_FR: Algorithmes sur les graphes Eulérien, parcours en largeur et en profondeur, tri topologique, composantes fortement connexes
+        desc: Algorithms on Eulerian graphs, breadth-first and depth-first traversal, topological sorting, strongly connected components
+        hours: null
+
+  23-24:
+    label: "2023-2024"
+    courses:
+      - title: C Programming
+        desc_FR: Variables et instructions conditionnelles, boucles et fonctions, tableaux à taille constante, tableaux 2D, chaînes de caractères, structures, pointeurs, allocation de mémoire dynamique
+        desc: Variables and conditional statements, loops and functions, fixed-size arrays, 2D arrays, strings, structures, pointers, dynamic memory allocation
+        hours: null
+
+      - title: Numerical algorithms
+        desc_FR: Systèmes linéaires, méthode de Gauss, méthode de Cholesky, méthode itérative de Gauss-Seidel, méthode itérative de Jacobi, interpolation (Lagrange, Neville, Newton), approximation (équation de droite, moindres carrées), valeurs et vecteurs propres, modélisation
+        desc: Linear systems, Gaussian elimination method, Cholesky method, Gauss-Seidel iterative method, Jacobi iterative method, interpolation (Lagrange, Neville, Newton), approximation (line equation, least squares), eigenvalues and eigenvectors, modeling
+        hours: null
+
+      - title: Operational research
+        desc_FR: Modélisation des PL et PLNEs avec OPL IDE et avec l’API Python de CPLEX, dualité, analyse de sensibilité, algorithme de plans sécants (Cutting plane de Gomory), Branch-and-Cut
+        desc: Modeling of Linear Programs (LP) and Mixed-Integer Linear Programs (MILP) with OPL IDE and with the CPLEX Python API, duality, sensitivity analysis, Gomory cutting-plane algorithm, Branch-and-Cut
+        hours: null
+
+      - title: Systems modeling and optimization
+        desc_FR: Rélaxation linéaire, heuristique gloutonne, programmation dynamique, réduction, pré-traitement, résolution des PLNE avec CPLEX, relaxation Lagrangienne
+        desc: Linear relaxation, greedy heuristics, dynamic programming, reduction, preprocessing, solving MILPs with CPLEX, Lagrangian relaxation
+        hours: null
+
+  22-23:
+    label: "2022-2023"
+    courses:
+      - title: C Programming
+        desc_FR: Variables et instructions conditionnelles, boucles et fonctions, tableaux à taille constante, tableaux 2D, chaînes de caractères, structures, pointeurs, allocation de mémoire dynamique
+        desc: Variables and conditional statements, loops and functions, fixed-size arrays, 2D arrays, strings, structures, pointers, dynamic memory allocation 
+        hours: null
+
+      - title: Numerical algorithms
+        desc_FR: Systèmes linéaires, méthode de Gauss, méthode de Cholesky, méthode itérative de Gauss-Seidel, méthode itérative de Jacobi, interpolation (Lagrange, Neville, Newton), approximation (équation de droite, moindres carrées), valeurs et vecteurs propres, modélisation
+        desc: Linear systems, Gaussian elimination method, Cholesky method, Gauss-Seidel iterative method, Jacobi iterative method, interpolation (Lagrange, Neville, Newton), approximation (line equation, least squares), eigenvalues and eigenvectors, modeling
+        hours: null
+
+      - title: Operational research
+        desc_FR: Modélisation des PL et PLNEs avec OPL IDE et avec l’API Python de CPLEX, dualité, analyse de sensibilité, algorithme de plans sécants (Cutting plane de Gomory), Branch-and-Cut
+        desc: Modeling of Linear Programs (LP) and Mixed-Integer Linear Programs (MILP) with OPL IDE and with the CPLEX Python API, duality, sensitivity analysis, Gomory cutting-plane algorithm, Branch-and-Cut
+        hours: null
+
+  21-22:
+    label: "2021-2022"
+    courses:
+      - title: Computing project
+        desc_FR: Codage d’un jeu de cartes (La réussite des alliances) en Python en utilisant Git pour gérer les versions ainsi que LaTeX pour la rédaction du rapport
+        desc: Implementation of a card game (La Réussite des Alliances) in Python using Git for version control and LaTeX for writing the report
+        hours: null
+
+      - title: Object-oriented programming
+        desc_FR: Manipulation des classes, héritage, énumération, listes, tableaux, comparaison des structures de données, jeu de la bataille
+        desc: Manipulation of classes, inheritance, enumeration, lists, arrays, comparison of data structures, the War card game
+        hours: null
+
+      - title: Operational research
+        desc_FR: Modélisation des PL et PLNEs avec OPL IDE et avec l’API Python de CPLEX, dualité, analyse de sensibilité, algorithme de plans sécants (Cutting plane de Gomory), Branch-and-Cut
+        desc: Modeling of Linear Programs (LP) and Mixed-Integer Linear Programs (MILP) with OPL IDE and with the CPLEX Python API, duality, sensitivity analysis, Gomory cutting-plane algorithm, Branch-and-Cut
+        hours: null
