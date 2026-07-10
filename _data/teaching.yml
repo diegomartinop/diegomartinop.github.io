@@ -5,17 +5,17 @@ years:
       - title: C Programming
         desc_FR: Variables et instructions conditionnelles, boucles et fonctions, tableaux à taille constante, tableaux 2D, chaînes de caractères, structures, pointeurs, allocation de mémoire dynamique
         desc: Variables and conditional statements, loops and functions, fixed-size arrays, 2D arrays, strings, structures, pointers, dynamic memory allocation
-        hours: 30
+        hours: null
 
       - title: Algorithmic in Python
         desc_FR: Variables, affectation, entrées et sorties standard, chaînes de caractères, booléens et instructions conditionnelles, fonctions et tuples, boucles while et for, listes, dictionnaires, récursivité, algorithmes de tri, lecture et écriture dans un fichier
         desc: Variables, assignment, standard input and output, strings, booleans and conditional statements, functions and tuples, while and for loops, lists, dictionaries, recursion, sorting algorithms, reading from and writing to a file
-        hours: 24
+        hours: null
 
       - title: Graphs theory
         desc_FR: Parcours en largeur et en profondeur, calcul des distances dans les graphes pondérés, arbre couvrant de poids minimal, problèmes d’ordonnancement, flots maximaux, tri topologique, composants fortement connexes, graphes Eulérien et Hamiltonien
         desc: Breadth-first and depth-first traversal, distance computation in weighted graphs, minimum spanning trees, scheduling problems, maximum flows, topological sorting, strongly connected components, Eulerian and Hamiltonian graphs
-        hours: 18
+        hours: null
 
       - title: Graphs structure
         desc_FR: Algorithmes sur les graphes Eulérien, parcours en largeur et en profondeur, tri topologique, composantes fortement connexes
